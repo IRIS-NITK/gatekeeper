@@ -5,8 +5,8 @@ Check wiki for API Documentation [Wiki](https://github.com/IRIS-NITK/gatekeeper/
 
 ## Setup
 - Setup virtual environment and install packages listed in requirements.txt
-- Create .env by copying .ev.example
-- Update the environment variables in .env.example
+- Create .env by copying .env.example file present in forwarderapp and portforwarder directory
+- Update the environment variables in .env
 - create database, apply migrations
 - Enable port forwarding 
 - start celery worker ```celery -A portforwarder worker --loglevel=INFO```
